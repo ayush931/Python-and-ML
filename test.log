@@ -1,0 +1,11 @@
+INFO:root:This is my normal information about the software run
+ERROR:root:This is the error message
+WARNING:root:This is my warning
+CRITICAL:root:This is critical message
+INFO:root:This is my info message
+WARNING:root:This is my warning message
+INFO:root:This is my info message
+WARNING:root:This is my warning message
+INFO:root:This is my info message
+WARNING:root:This is my warning message
+INFO:root:info message
