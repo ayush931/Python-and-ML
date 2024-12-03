@@ -1,4 +1,4 @@
-from flask import Flask, redirect, url_for
+from flask import Flask, redirect, url_for, render_template
 
 app = Flask(__name__)
 
@@ -8,7 +8,7 @@ def hello_world():
 
 @app.route("/home")
 def hello_home():
-    return 'Hello from Home page'
+    return render_template("index.html")
 
 @app.route("/<name>")
 def user(name):
